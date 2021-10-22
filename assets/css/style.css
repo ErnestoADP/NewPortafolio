@@ -1,0 +1,109 @@
+body {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    color: #373A3C;
+}
+
+.font {
+    text-decoration: none;
+    font-size: 3em;
+}
+
+.imagenPrincipal {
+    width: 100%;
+    height: 500px;
+}
+
+.btn-style {
+    width: 46%;
+    margin-left: 7px;
+}
+
+.imgSlider {
+    width: 100%;
+    height: 200px;
+}
+
+.bor {
+    border-top: 1px solid;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 9px;
+    height: 9px;
+    border-radius: 100%;
+}
+
+.espacio {
+    width: 50%;
+}
+
+p {
+    line-height: 2;
+}
+
+.linea {
+    border-bottom: 1px solid #000000;
+}
+
+.img-hobbie {
+    width: 100%;
+    height: 300px;
+}
+
+.color {
+    background-color: #DC3545;
+    width: 100%;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+
+.botonFooter {
+    margin: auto;
+}
+
+.enlaces>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+.enlaces>li {
+    font-size: 40px;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+footer {
+    background-color: #373A3C;
+    color: white;
+}
+
+.pfooter {
+    margin: 0;
+}
+
+.margenH3 {
+    margin-top: 50px;
+}
+
+.fontspan {
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+}
+
+h3 {
+    color: #000000
+}
+
+h3.dbl {
+    color: Red;
+}
+
+h4 {
+    color: #000000;
+}
+
+h4.dbl {
+    color: blue;
+}
