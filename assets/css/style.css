@@ -4,6 +4,12 @@ body {
     color: #373A3C;
 }
 
+main,
+#pro,
+#perfil {
+    padding-top: 6%;
+}
+
 .font {
     text-decoration: none;
     font-size: 3em;
