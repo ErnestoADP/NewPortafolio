@@ -5,9 +5,14 @@ body {
 }
 
 main,
-#pro,
-#perfil {
-    padding-top: 6%;
+#perfil,
+#hob,
+#pro {
+    padding-top: 88px;
+}
+
+#proye {
+    padding-top: 69px;
 }
 
 .font {
