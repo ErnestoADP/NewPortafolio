@@ -4,11 +4,9 @@ body {
     color: #373A3C;
 }
 
-main,
-#perfil,
-#hob,
-#pro {
-    padding-top: 88px;
+header,
+#hob {
+    padding-top: 100px;
 }
 
 #proye {
@@ -41,10 +39,8 @@ main,
     border-top: 1px solid;
 }
 
-.carousel-indicators [data-bs-target] {
-    width: 9px;
-    height: 9px;
-    border-radius: 100%;
+#pro {
+    background-color: #5753546c;
 }
 
 .espacio {
@@ -120,4 +116,9 @@ h4 {
 
 h4.dbl {
     color: blue;
+}
+
+h5 {
+    color: white;
+    border-bottom: 2px rgba(71, 71, 71, 0.342) solid;
 }
