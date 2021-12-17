@@ -38,7 +38,6 @@ header,
 
 #pro {
     background-color: #5753546c;
-    margin-bottom: 20px;
 }
 
 .espacio {
@@ -111,4 +110,15 @@ h5 {
 
 .buttomColap {
     width: 100%;
+}
+
+@media (max-width: 575px) {
+    h5,
+    h4,
+    h3,
+    p,
+    ul,
+    li {
+        text-align: center;
+    }
 }
