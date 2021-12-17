@@ -4,10 +4,12 @@ body {
     color: #373A3C;
 }
 
-header,
+header {
+    padding-top: 100px;
+}
+
 #hob {
-    padding-top: 100px;
-    padding-top: 100px;
+    padding-top: 45px
 }
 
 .font {
