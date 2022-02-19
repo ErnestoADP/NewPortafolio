@@ -110,6 +110,82 @@ h5 {
     width: 100%;
 }
 
+.section-cards {
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card-wrap {
+    margin: 10px;
+    -webkit-perspective: 900;
+    perspective: 900;
+}
+
+.card {
+    width: 300px;
+    height: 350px;
+    background-color: #373A3C;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .7s ease;
+    -webkit-box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.65);
+    box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.65);
+}
+
+.adelante,
+.atras {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.adelante {
+    width: 100%;
+}
+
+.cardUno {
+    background-image: url(../img/html5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cardDos {
+    background-image: url(../img/css3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cardTres {
+    background-image: url(../img/js.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.atras {
+    transform: rotateY(180deg);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: "open sans";
+}
+
+.card-wrap:hover .card {
+    transform: rotateY(180deg);
+}
+
 @media (max-width: 575px) {
     h5,
     h4,
